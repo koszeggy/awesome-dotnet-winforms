@@ -201,7 +201,7 @@ Feel free to suggest your personal favorite library in the discussion tab, with 
 ## Text rendering / Custom drawing / Diagrams / Charts
 
 * **[KGySoft.Drawing](https://github.com/koszeggy/KGySoft.Drawing)**
-  High-performance, versatile drawing library for GDI+, supporting direct and fast bitmap manipulation of any pixel format, shape drawing, image processing, and even creating animated GIFs. Not just for WinForms: it has dedicated packages also for [WPF](https://www.nuget.org/packages/KGySoft.Drawing.Wpf), [UWP](https://www.nuget.org/packages/KGySoft.Drawing.Uwp), [WinUI](https://www.nuget.org/packages/KGySoft.Drawing.WinUI) and [SkiaSharp](https://www.nuget.org/packages/KGySoft.Drawing.SkiaSharp/).<br/>
+  High-performance, versatile drawing library for GDI+, supporting direct and fast bitmap manipulation of any pixel format, shape drawing, image processing, and even creating animated GIFs. Not just for WinForms: it has dedicated packages also for [WPF](https://www.nuget.org/packages/KGySoft.Drawing.Wpf), [UWP](https://www.nuget.org/packages/KGySoft.Drawing.Uwp), [WinUI](https://www.nuget.org/packages/KGySoft.Drawing.WinUI) and [SkiaSharp](https://www.nuget.org/packages/KGySoft.Drawing.SkiaSharp/).  
   [![GitHub](https://img.shields.io/static/v1?label=&message=Github&color=181717&logo=GitHub)](https://github.com/koszeggy/KGySoft.Drawing)
   ![GitHub Repository Stars](https://img.shields.io/github/stars/koszeggy/KGySoft.Drawing?style=social)
   [![NuGet - KGySoft.Drawing](https://img.shields.io/badge/NuGet-KGySoft.Drawing-blue?logo=nuget)](https://www.nuget.org/packages/KGySoft.Drawing/)
@@ -312,10 +312,10 @@ Feel free to suggest your personal favorite library in the discussion tab, with 
   ![GitHub Repository Last Commit](https://img.shields.io/github/last-commit/awaescher/FluentDragDrop)
   
 * **[KGySoft.CoreLibraries](https://github.com/koszeggy/KGySoft.CoreLibraries)**
-  Actually a platform-independent library with various features, but its [command binding](https://github.com/koszeggy/KGySoft.CoreLibraries?tab=readme-ov-file#command-binding) and [business object](https://github.com/koszeggy/KGySoft.CoreLibraries?tab=readme-ov-file#business-objects) components can be [used](https://github.com/koszeggy/KGySoft.ComponentModelDemo) to implement the MVVM pattern in WinForms applications, including older frameworks where such thing is not supported officially. The package has no dependencies.<br/>
+  Actually a platform-independent library with various features, but its [command binding](https://github.com/koszeggy/KGySoft.CoreLibraries?tab=readme-ov-file#command-binding) and [business object](https://github.com/koszeggy/KGySoft.CoreLibraries?tab=readme-ov-file#business-objects) components can be [used](https://github.com/koszeggy/KGySoft.ComponentModelDemo) to implement the MVVM pattern in WinForms applications, including older frameworks where such thing is not supported officially. The package has no dependencies.  
   [![GitHub](https://img.shields.io/static/v1?label=&message=Github&color=181717&logo=GitHub)](https://github.com/koszeggy/KGySoft.CoreLibraries)
   ![GitHub Repository Stars](https://img.shields.io/github/stars/koszeggy/KGySoft.CoreLibraries?style=social)
-  [![NuGet - KGySoft.WinForms](https://img.shields.io/badge/NuGet-KGySoft.CoreLibraries-blue?logo=nuget)](https://www.nuget.org/packages/KGySoft.CoreLibraries/)
+  [![NuGet - KGySoft.CoreLibraries](https://img.shields.io/badge/NuGet-KGySoft.CoreLibraries-blue?logo=nuget)](https://www.nuget.org/packages/KGySoft.CoreLibraries/)
   [![Online Help](https://img.shields.io/website/https/koszeggy.github.io/docs/corelibraries.svg?label=online%20help&up_message=available)](https://koszeggy.github.io/docs/corelibraries)
   ![activity - active](https://img.shields.io/badge/activity-active-2ea44f)
   ![GitHub Repository Last Commit](https://img.shields.io/github/last-commit/koszeggy/KGySoft.CoreLibraries)
@@ -396,7 +396,7 @@ Ant Design for WinForms, reimagines desktop app aesthetics with modern frontend 
   ![GitHub Repository Last Commit](https://img.shields.io/github/last-commit/RobinPerris/DarkUI)
   
 * **[KGySoft.WinForms](https://github.com/koszeggy/KGySoft.WinForms)**
-  Various WinForms controls and components. Not exactly a suite, so you can cherry-pick whatever you like. It generally contains improved versions of standard controls along with some new ones (e.g. an `ImageViewer` with panning and zooming capability). The library aims the widest possible compatibility, including Windows XP and Mono/Linux, even for components (e.g. Task Dialogs) that normally require newer platforms or rely on native APIs.<br/>
+  Various WinForms controls and components. Not exactly a suite, so you can cherry-pick whatever you like. It generally contains improved versions of standard controls along with some new ones (e.g. an `ImageViewer` with panning and zooming capability). The library aims the widest possible compatibility, including Windows XP and Mono/Linux, even for components (e.g. Task Dialogs) that normally require newer platforms or rely on native APIs.  
   [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=GitHub)](https://github.com/koszeggy/KGySoft.WinForms)
   ![GitHub Repository Stars](https://img.shields.io/github/stars/koszeggy/KGySoft.WinForms?style=social)
   [![NuGet - KGySoft.WinForms](https://img.shields.io/badge/NuGet-KGySoft.WinForms-blue?logo=nuget)](https://www.nuget.org/packages/KGySoft.WinForms/)
@@ -447,7 +447,7 @@ Ant Design for WinForms, reimagines desktop app aesthetics with modern frontend 
 
 Libraries/tools to help debugging WinForms applications.
 
-* **[KGy SOFT Debugger Visualizers](https://github.com/koszeggy/KGySoft.Drawing.Tools)** A Visual Studio extension, containing debugger visualizers for GDI+, WPF and SkiaSharp types. It can be really useful when developing WinForms applications with custom rendering. The installer can be downloaded also from the Visual Studio Marketplace for free: see the [32-bit](https://marketplace.visualstudio.com/items?itemName=`Soft.drawing-debugger-visualizers) (VS 2013-2019) and the [64-bit](https://marketplace.visualstudio.com/items?itemName=KGySoft.drawing-debugger-visualizers-x64) (VS 2022-2026+) packages. For older Visual Studio versions see the [manual install](https://github.com/koszeggy/KGySoft.Drawing.Tools#installing-debugger-visualizers) instructions.<br/>
+* **[KGy SOFT Debugger Visualizers](https://github.com/koszeggy/KGySoft.Drawing.Tools)** A Visual Studio extension, containing debugger visualizers for GDI+, WPF and SkiaSharp types. It can be really useful when developing WinForms applications with custom rendering. The installer can be downloaded also from the Visual Studio Marketplace for free: see the [32-bit](https://marketplace.visualstudio.com/items?itemName=KGySoft.drawing-debugger-visualizers) (VS 2013-2019) and the [64-bit](https://marketplace.visualstudio.com/items?itemName=KGySoft.drawing-debugger-visualizers-x64) (VS 2022-2026+) packages. For older Visual Studio versions see the [manual install](https://github.com/koszeggy/KGySoft.Drawing.Tools#installing-debugger-visualizers) instructions.<br/>
   [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=GitHub)](https://github.com/koszeggy/KGySoft.Drawing.Tools)
   ![GitHub Repository Stars](https://img.shields.io/github/stars/koszeggy/KGySoft.Drawing.Tools?style=social)
   <!--![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/d/:KGySoft.drawing-debugger-visualizers-x64)-->
